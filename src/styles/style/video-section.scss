@@ -1,0 +1,35 @@
+.learn {
+    background-image: url('../assets/Learn-more__image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+
+    .learn__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        max-width: 442px;
+        margin: auto;
+        font-family: 'Oswald', sans-serif;
+    margin-top: 80px;
+    }
+
+    .learn__background {
+        margin-top: 60px;
+    }
+
+    .learn__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 351px;
+        margin: auto;
+        margin-top: 54px;
+        font-family: "Source Sans Pro", sans-serif;
+    }
+}

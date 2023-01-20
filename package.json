@@ -1,0 +1,33 @@
+{
+  "name": "complex-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass src/styles/style/styles.scss src/styles/style/styles.css --watch",
+    "prod": "src/styles/style/styles.css --dir src/postcss",
+    "lint": "stylelint \"**/*.scss\"--fix",
+    "format:scss":""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JafarDjurayev/complex-work.git"
+  },
+  "author": "Ja'far Djurayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JafarDjurayev/complex-work/issues"
+  },
+  "homepage": "https://github.com/JafarDjurayev/complex-work#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss-cli": "^10.1.0",
+    "prettier": "2.8.3",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0"
+  }
+}
